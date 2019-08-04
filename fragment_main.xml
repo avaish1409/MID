@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:visibility="visible">
+
+
+
+    <RelativeLayout
+        android:id="@+id/c0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:id="@+id/home_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textAlignment="center"
+                    android:text="@string/home_1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textAlignment="center"
+                    android:text="@string/home_2"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textAlignment="center"
+                    android:text="@string/home_3"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textAlignment="center"
+                    android:text="@string/home_4"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/home_t1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="00:00"/>
+
+                <TextView
+                    android:id="@+id/home_sub1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="null"/>
+                <TextView
+                    android:id="@+id/home_att1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="0"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/home_cb1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/cardview_dark_background"
+                        android:onClick="mark"/>
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/home_t2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="00:00"/>
+
+                <TextView
+                    android:id="@+id/home_sub2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="null"/>
+                <TextView
+                    android:id="@+id/home_att2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="0"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/home_cb2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="mark"
+                        android:textColor="@color/cardview_dark_background"/>
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/home_t3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="00:00"/>
+
+                <TextView
+                    android:id="@+id/home_sub3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="null"/>
+                <TextView
+                    android:id="@+id/home_att3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="0"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/home_cb3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="mark"
+                        android:textColor="@color/cardview_dark_background" />
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/home_t4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="00:00"/>
+
+                <TextView
+                    android:id="@+id/home_sub4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="null"/>
+                <TextView
+                    android:id="@+id/home_att4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="0"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/home_cb4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="mark"
+                        android:textColor="@color/cardview_dark_background" />
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/home_t5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="00:00"/>
+
+                <TextView
+                    android:id="@+id/home_sub5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="null"/>
+                <TextView
+                    android:id="@+id/home_att5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="0"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/home_cb5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="mark"
+                        android:textColor="@color/cardview_dark_background" />
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/home_t6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="00:00"/>
+
+                <TextView
+                    android:id="@+id/home_sub6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="null"/>
+                <TextView
+                    android:id="@+id/home_att6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="0"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/home_cb6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="mark"
+                        android:textColor="@color/cardview_dark_background" />
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/home_t7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="00:00"/>
+
+                <TextView
+                    android:id="@+id/home_sub7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="null"/>
+                <TextView
+                    android:id="@+id/home_att7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="0"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/home_cb7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="mark"
+                        android:textColor="@color/cardview_dark_background" />
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/home_t8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="00:00"/>
+
+                <TextView
+                    android:id="@+id/home_sub8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="null"/>
+                <TextView
+                    android:id="@+id/home_att8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="0"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/home_cb8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="mark"
+                        android:textColor="@color/cardview_dark_background" />
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/home_holiday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="32dp"
+            android:text="HOLIDAY"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+
+
+        <LinearLayout
+            android:id="@+id/att_lay0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:orientation="horizontal">
+
+
+
+
+        </LinearLayout>
+
+
+        <TableLayout
+            android:id="@+id/att_lay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/att_lay0"
+            android:layout_margin="16dp">
+
+            <TableRow>
+
+
+
+                <TextView
+                    android:id="@+id/att_v1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textAlignment="center"
+                    android:text="@string/att_1"/>
+
+                <TextView
+                    android:id="@+id/att_v2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textAlignment="center"
+                    android:text="@string/att_2"/>
+
+                <TextView
+                    android:id="@+id/att_v3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textAlignment="center"
+                    android:text="@string/att_3"/>
+
+                <TextView
+                    android:id="@+id/att_v4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textAlignment="center"
+                    android:text="@string/att_4"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/att_sub1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/att_attCls1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/att_ttlCls1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:id="@+id/att_att1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/att_sub2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/att_attCls2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/att_ttlCls2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/att_att2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/att_sub3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/att_ttlCls3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/att_attCls3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/att_att3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:textAlignment="center"/>
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <TextView
+                    android:id="@+id/att_sub4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/att_attCls4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/att_ttlCls4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/att_att4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:textAlignment="center"/>
+
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <TextView
+                    android:id="@+id/att_sub5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/att_attCls5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/att_ttlCls5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/att_att5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:textAlignment="center"/>
+
+            </TableRow>
+        </TableLayout>
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/c2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/day1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textColor="@android:color/background_dark"
+            android:text="Monday"/>
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/day1"
+            android:layout_marginLeft="32dp">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/day2">
+
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/sch_t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls1_2"
+                        android:layout_margin="16dp"/>
+                    <TextView
+                        android:id="@+id/sch_t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls1_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls2_2"
+                        android:layout_margin="16dp" />
+
+
+                    <TextView
+                        android:id="@+id/sch_t3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls2_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls3_2"
+                        android:layout_margin="16dp" />
+
+                    <TextView
+                        android:id="@+id/sch_t4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls3_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls4_2"
+                        android:layout_margin="16dp"/>
+
+
+
+                    <TextView
+                        android:id="@+id/sch_t5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls4_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls5_2"
+                        android:layout_margin="16dp" />
+
+
+
+                    <TextView
+                        android:id="@+id/sch_t6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls5_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls5_2"
+                        android:layout_margin="16dp" />
+
+
+                    <TextView
+                        android:id="@+id/sch_t7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls6_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls6_2"
+                        android:layout_margin="16dp" />
+
+
+
+                    <TextView
+                        android:id="@+id/sch_t8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls7_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls7_2"
+                        android:layout_margin="16dp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/sch_cls1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        android:layout_margin="16dp"/>
+                    <TextView
+                        android:id="@+id/sch_cls2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t1"
+                        android:layout_margin="16dp" />
+                    <TextView
+                        android:id="@+id/sch_cls3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t2"
+                        android:layout_margin="16dp" />
+                    <TextView
+                        android:id="@+id/sch_cls4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t3"
+                        android:layout_margin="16dp" />
+                    <TextView
+                        android:id="@+id/sch_cls5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t4"
+                        android:layout_margin="16dp" />
+                    <TextView
+                        android:id="@+id/sch_cls6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t5"
+                        android:layout_margin="16dp" />
+                    <TextView
+                        android:id="@+id/sch_cls7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t6"
+                        android:layout_margin="16dp"/>
+                    <TextView
+                        android:id="@+id/sch_cls8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t7"
+                        android:layout_margin="16dp"/>
+
+
+                </TableRow>
+
+            </TableLayout>
+
+
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/day2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            app:layout_constraintTop_toBottomOf="@id/day1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textColor="@android:color/background_dark"
+            android:text="Tuesday"/>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/day2"
+            android:layout_marginLeft="32dp">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/day2">
+
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/sch_t1_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls1_2"
+                        android:layout_margin="16dp"/>
+                    <TextView
+                        android:id="@+id/sch_t2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls1_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls2_2"
+                        android:layout_margin="16dp" />
+
+
+                    <TextView
+                        android:id="@+id/sch_t3_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls2_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls3_2"
+                        android:layout_margin="16dp" />
+
+                    <TextView
+                        android:id="@+id/sch_t4_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls3_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls4_2"
+                        android:layout_margin="16dp"/>
+
+
+
+                    <TextView
+                        android:id="@+id/sch_t5_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls4_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls5_2"
+                        android:layout_margin="16dp" />
+
+
+
+                    <TextView
+                        android:id="@+id/sch_t6_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls5_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls5_2"
+                        android:layout_margin="16dp" />
+
+
+                    <TextView
+                        android:id="@+id/sch_t7_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls6_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls6_2"
+                        android:layout_margin="16dp" />
+
+
+
+                    <TextView
+                        android:id="@+id/sch_t8_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/sch_cls7_2"
+                        app:layout_constraintRight_toLeftOf="@id/sch_cls7_2"
+                        android:layout_margin="16dp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/sch_cls1_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        android:layout_margin="16dp"/>
+                    <TextView
+                        android:id="@+id/sch_cls2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t1"
+                        android:layout_margin="16dp" />
+                    <TextView
+                        android:id="@+id/sch_cls3_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t2"
+                        android:layout_margin="16dp" />
+                    <TextView
+                        android:id="@+id/sch_cls4_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t3"
+                        android:layout_margin="16dp" />
+                    <TextView
+                        android:id="@+id/sch_cls5_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t4"
+                        android:layout_margin="16dp" />
+                    <TextView
+                        android:id="@+id/sch_cls6_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t5"
+                        android:layout_margin="16dp" />
+                    <TextView
+                        android:id="@+id/sch_cls7_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t6"
+                        android:layout_margin="16dp"/>
+                    <TextView
+                        android:id="@+id/sch_cls8_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@id/sch_t1"
+                        app:layout_constraintLeft_toRightOf="@id/sch_t7"
+                        android:layout_margin="16dp"/>
+
+
+                </TableRow>
+
+            </TableLayout>
+
+
+
+        </HorizontalScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+    </android.support.constraint.ConstraintLayout>
+

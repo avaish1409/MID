@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MID 1707</string>
+    <string name="tab_text_1">Today</string>
+    <string name="tab_text_2">Att. Sheet</string>
+    <string name="tab_text_3">Timetable</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="home_1"><u><b>TIME</b></u></string>
+    <string name="home_2"><u><b>SUBJECT</b></u></string>
+    <string name="home_3"><u><b>ATT</b></u></string>
+    <string name="home_4"><u><b>P/AB</b></u></string>
+
+
+    <string name="att_1"><u><b>SUBJECT</b></u></string>
+    <string name="att_2"><u><b>Total\nClasses</b></u></string>
+    <string name="att_3"><u><b>Attended\nClasses</b></u></string>
+    <string name="att_4"><u><b>ATT</b></u></string>
+
+</resources>
